@@ -43,8 +43,8 @@ db.nominas.insertMany([
     //nomina de Juan perez (Salario: 2.800.000, no auxilio transporte, sin faltas en enero)
     {
         "codigo_nomina": "NOM-202501-JP",
-        "empleado_id": ObjectId('6865d616ebc4a0da019cced5'),
-        "contrato_id": ObjectId('6865adc6ebc4a0da019cce9e'),
+        "empleado_id": ObjectId('6866b202ff9d850bfeb15f32'),
+        "contrato_id": ObjectId('6866b022ff9d850bfeb15f1d'),
         "periodo_nomina": ISODate("2025-01-01T00:00:00Z"),
         "salario_base": 2800000.00,
         "total_devengos": 2800000.00,
@@ -60,8 +60,8 @@ db.nominas.insertMany([
     //nomina de Samuel Gay Torres (Salario: 1.800.000, si auxilio transporte, sin faltas en enero)
     {
         "codigo_nomina": "NOM-202501-SG",
-        "empleado_id": ObjectId('6865d616ebc4a0da019cced6'),
-        "contrato_id": ObjectId('6865adc6ebc4a0da019ccea0'), 
+        "empleado_id": ObjectId('6866b202ff9d850bfeb15f33'),
+        "contrato_id": ObjectId('6866b022ff9d850bfeb15f1e'), 
         "periodo_nomina": ISODate("2025-01-01T00:00:00Z"),
         "salario_base": 1800000.00,
         "total_devengos": 1800000.00 + 162000.00, // Salario + Auxilio
@@ -78,8 +78,8 @@ db.nominas.insertMany([
     //nomina de Brayan Gordillo (Salario: 1.500.000, si auxilio transporte, con 3 días de faltas en enero)
     {
         "codigo_nomina": "NOM-202501-BG",
-        "empleado_id": ObjectId('6865d616ebc4a0da019cced7'),
-        "contrato_id": ObjectId('6865adc6ebc4a0da019cce9f'),
+        "empleado_id": ObjectId('6866b202ff9d850bfeb15f34'),
+        "contrato_id": ObjectId('6866b022ff9d850bfeb15f1f'),
         "periodo_nomina": ISODate("2025-01-01T00:00:00Z"),
         "salario_base": 1500000.00,
         "dias_faltas": 3, 
@@ -100,8 +100,8 @@ db.nominas.insertMany([
     //nomina de Andrey Martinez (Salario: 3.500.000, no auxilio transporte, sin faltas en enero)
     {
         "codigo_nomina": "NOM-202501-AM",
-        "empleado_id": ObjectId('6865d848ebc4a0da019cced8'),
-        "contrato_id": ObjectId('6865adc6ebc4a0da019ccea1'),
+        "empleado_id": ObjectId('6866b202ff9d850bfeb15f35'),
+        "contrato_id": ObjectId('6866b022ff9d850bfeb15f1c'),
         "periodo_nomina": ISODate("2025-01-01T00:00:00Z"),
         "salario_base": 3500000.00,
         "total_devengos": 3500000.00,
