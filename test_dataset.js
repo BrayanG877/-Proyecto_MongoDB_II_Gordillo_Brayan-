@@ -2,16 +2,16 @@
 
 db.novedades.insertMany([
     {
-        "empleado_id": ObjectId('6865d616ebc4a0da019cced7'), //Brayan Gordillo
-        "tipo_novedad_id": ObjectId('6865e089ebc4a0da019ccee1'), //falta Injustificada
+        "empleado_id": ObjectId('6866b202ff9d850bfeb15f34'), //Brayan Gordillo
+        "tipo_novedad_id": ObjectId('6866b033ff9d850bfeb15f2d'), //falta Injustificada
         "fecha_inicio": ISODate("2025-01-20T00:00:00Z"),
         "fecha_fin": ISODate("2025-01-22T00:00:00Z"),
         "dias_afectados": 3, 
         "descripcion": "Falta injustificada por 3 días."
     },
     {
-        "empleado_id": ObjectId('6865d616ebc4a0da019cced5'), //Juan Pérez
-        "tipo_novedad_id": ObjectId('6865e089ebc4a0da019ccee2'), //vacaciones
+        "empleado_id": ObjectId('6866b202ff9d850bfeb15f32'), //Juan Pérez
+        "tipo_novedad_id": ObjectId('6866b033ff9d850bfeb15f28'), //vacaciones
         "fecha_inicio": ISODate("2025-02-01T00:00:00Z"),
         "fecha_fin": ISODate("2025-02-15T00:00:00Z"),
         "dias_afectados": 15,
@@ -22,14 +22,14 @@ db.novedades.insertMany([
 
 db.periodos_nomina.insertMany([
     {
-        "_id": ObjectId('6865e237ebc4a0da019ccee3'),
+        "_id": ObjectId('6866b202ff9d850bfeb15f34'),
         "fecha_inicio": ISODate("2025-01-01T00:00:00Z"),
         "fecha_fin": ISODate("2025-01-31T23:59:59Z"),
         "nombre_periodo": "Enero 2025",
         "estado": "Cerrado"
     },
     {
-        "_id": ObjectId('6865e237ebc4a0da019ccee4'),
+        "_id": ObjectId('6866b202ff9d850bfeb15f32'),
         "fecha_inicio": ISODate("2025-02-01T00:00:00Z"),
         "fecha_fin": ISODate("2025-02-28T23:59:59Z"),
         "nombre_periodo": "Febrero 2025",
